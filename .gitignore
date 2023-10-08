@@ -1,0 +1,49 @@
+# Eclipse 프로젝트 설정 파일 및 디렉토리
+.classpath
+.project
+.settings/
+
+# Maven 디렉토리
+target/
+*/target/
+
+# 로그 및 임시 파일
+*.log
+*.log.*
+*.tmp
+
+# IDE 및 편집기 관련 파일
+.idea/
+*.iml
+*.ipr
+*.iws
+*.swp
+*.bak
+*~
+*.swp
+*.swo
+*.jar
+*.war
+*.ear
+
+# 개발 환경 구성 파일
+*.properties
+
+# 컴파일된 클래스 및 라이브러리
+*.class
+lib/
+bin/
+
+# 패키지 캐시 파일
+.packages
+
+# 개발 환경 설정
+.metadata/
+
+# 웹 캐시 및 로그 디렉토리
+webapp/target/
+webapp/WEB-INF/classes/
+webapp/WEB-INF/lib/
+webapp/WEB-INF/tmp/
+webapp/WEB-INF/logs/
+webapp/work/	
